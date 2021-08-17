@@ -29,7 +29,7 @@ function DataFetchingTwo() {
 
   useEffect(() => {
     axios
-      .get("https://jsonplaceholder.typicod.com/posts/1")
+      .get("https://jsonplaceholder.typicode.com/posts/1")
       .then((response) => {
         dispatch({ type: "FETCH_SUCCESS", payload: response.data });
       })
