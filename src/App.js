@@ -4,6 +4,7 @@ import DataFetchingTwo from "./components/DataFetchingTwo";
 import RefHooks from "./components/RefHooks";
 import DocTitleOne from "./components/DocTitleOne";
 import DocTitleTwo from "./components/DocTitleTwo";
+import HookTimer from "./components/HookTimer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <RefHooks />
       <DocTitleOne />
       <DocTitleTwo />
+      <HookTimer />
     </div>
   );
 }
